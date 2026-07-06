@@ -1,0 +1,14 @@
+[
+  {
+    "user_id": "usr_alpha",
+    "stripe_subscription_id": "sub_AAAAA",
+    "stripe_subscription_item_id": "si_AAAAA",
+    "account_age_days": 400
+  },
+  {
+    "user_id": "usr_beta",
+    "stripe_subscription_id": "sub_BBBBB",
+    "stripe_subscription_item_id": "si_BBBBB",
+    "account_age_days": 120
+  }
+]

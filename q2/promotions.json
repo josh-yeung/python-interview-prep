@@ -1,0 +1,7 @@
+{
+  "active_campaign": "loyalty_2026",
+  "stripe_coupon_id": "COUPON_50_OFF",
+  "eligibility_rules": {
+    "minimum_account_age_days": 365
+  }
+}

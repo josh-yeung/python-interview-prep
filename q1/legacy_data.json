@@ -1,0 +1,26 @@
+[
+  {
+    "legacy_id": "usr_991a",
+    "full_name": "Alice Smith",
+    "contact_email": "alice@example.com",
+    "account_balance_cents": 1500
+  },
+  {
+    "legacy_id": "usr_992b",
+    "full_name": "Bob Jones",
+    "contact_email": null,
+    "account_balance_cents": 5000
+  },
+  {
+    "legacy_id": "usr_993c",
+    "full_name": "Charlie Davis",
+    "contact_email": "charlie@example.com",
+    "account_balance_cents": -200
+  },
+  {
+    "legacy_id": "usr_994d",
+    "full_name": "Diana Prince",
+    "contact_email": "diana@example.com",
+    "account_balance_cents": 0
+  }
+]
