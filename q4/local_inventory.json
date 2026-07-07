@@ -1,0 +1,17 @@
+[
+  {
+    "internal_id": 101,
+    "name": "shoes_sneaker",
+    "quantity": 50
+  },
+  {
+    "internal_id": 102,
+    "name": "apparel_jacket",
+    "quantity": 15
+  },
+  {
+    "internal_id": 103,
+    "name": "gear_backpack",
+    "quantity": 0
+  }
+]
