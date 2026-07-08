@@ -68,13 +68,16 @@ def expand_paths(paths: Iterable[str]) -> List[str]:
         path = normalize_path(raw_path)
         if not os.path.exists(path):
             raise InvalidPathError(f"Path does not exist: {raw_path}")
-
-        for entry in os.scandir(path):
-            if entry.is_file(follow_symlinks=False):
-                expanded.append(normalize_path(entry.path))
-            elif entry.is_dir(follow_symlinks=False):
-                scan = collect_files(entry.path)
-                expanded.extend(record.path for record in scan.records)
+        
+        if os.path.isfile(path):
+            expanded.append(path)
+        else:
+            for entry in os.scandir(path):
+                if entry.is_file(follow_symlinks=False):
+                    expanded.append(normalize_path(entry.path))
+                elif entry.is_dir(follow_symlinks=False):
+                    scan = collect_files(entry.path)
+                    expanded.extend(record.path for record in scan.records)
 
     return expanded
 
