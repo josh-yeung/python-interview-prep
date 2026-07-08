@@ -1,0 +1,2 @@
+UNKNOWN_SETTING = "oops"
+PIPELINE_NAME = "bad-key"

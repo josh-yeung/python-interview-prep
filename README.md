@@ -59,3 +59,7 @@ If you see a response that begins with `Error`, follow the instructions it provi
 [virtualenv]: https://virtualenv.pypa.io/en/latest/installation.html
 [TLS 1.2]: https://pyfound.blogspot.com/2017/01/time-to-upgrade-your-python-tls-v12.html
 [MacOS SSL debugging]: https://stackoverflow.com/questions/58280484/ssl-module-in-python-is-not-available-on-osx/60467942#60467942
+
+## Bug Squash practice
+
+For Stripe-style functional debugging practice, see [bug_squash/](bug_squash/).
