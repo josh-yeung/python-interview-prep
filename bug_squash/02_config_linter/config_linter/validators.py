@@ -65,6 +65,10 @@ class ConfigValidator(ast.NodeVisitor):
     def visit_List(self, node: ast.List) -> None:
         for element in node.elts:
             self.visit(element)
+    
+    def visit_Tuple(self, node: ast.List) -> None:
+        for element in node.elts:
+            self.visit(element)
 
     def visit_Dict(self, node: ast.Dict) -> None:
         for key_node, value_node in zip(node.keys, node.values):
