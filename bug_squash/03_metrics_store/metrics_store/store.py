@@ -1,3 +1,4 @@
+import threading
 import time
 from typing import Dict
 
@@ -9,13 +10,15 @@ class MetricsStore:
 
     def __init__(self) -> None:
         self._counts: Dict[MetricKey, int] = {}
+        self._lock = threading.Lock()
 
     def record(self, key: MetricKey, delta: int = 1) -> None:
         if delta < 0:
             raise ValueError("delta must be non-negative")
-        current = self._counts.get(key, 0)
-        time.sleep(0)
-        self._counts[key] = current + delta
+        with self._lock:
+            current = self._counts.get(key, 0)
+            time.sleep(0)
+            self._counts[key] = current + delta
 
     def get(self, key: MetricKey) -> int:
         return self._counts.get(key, 0)
