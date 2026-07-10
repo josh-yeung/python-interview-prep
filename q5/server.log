@@ -1,0 +1,8 @@
+[INFO] 2026-07-10T10:00:00Z | user_id: 101 | action: login | status: success
+[ERROR] 2026-07-10T10:05:00Z | user_id: 102 | action: purchase | amount: 50.00 | status: failed
+[INFO] 2026-07-10T10:10:00Z | user_id: 101 | action: purchase | amount: 120.50 | status: success
+CORRUPTED LINE CAUSING PARSER CRASH ERROR NULL
+[INFO] 2026-07-10T10:15:00Z | user_id: 103 | action: purchase | amount: 15.00 | status: success
+[INFO] 2026-07-10T10:20:00Z | user_id: 101 | action: refund | amount: 20.00 | status: success
+[INFO] 2026-07-10T10:25:00Z | user_id: 103 | action: purchase | amount: 35.25 | status: success
+[WARNING] 2026-07-10T10:28:00Z | user_id: 104 | action: view_item | status: success
