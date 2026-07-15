@@ -1,0 +1,10 @@
+[
+  {"emp_id": "E10", "name": "Alice", "date": "Mon", "in": "08:00", "out": "17:30"},
+  {"emp_id": "E10", "name": "Alice", "date": "Tue", "in": "08:00", "out": "17:00"},
+  {"emp_id": "E10", "name": "Alice", "date": "Wed", "in": "08:00", "out": "18:00"},
+  {"emp_id": "E10", "name": "Alice", "date": "Thu", "in": "08:00", "out": "18:00"},
+  {"emp_id": "E10", "name": "Alice", "date": "Fri", "in": "08:00", "out": "17:00"},
+  {"emp_id": "E11", "name": "Bob",   "date": "Mon", "in": "09:00", "out": "13:00"},
+  {"emp_id": "E11", "name": "Bob",   "date": "Tue", "in": "09:00", "out": null},
+  {"emp_id": "E12", "name": "Charlie","date": "Mon", "in": "07:30", "out": "11:45"}
+]

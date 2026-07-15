@@ -1,0 +1,26 @@
+{
+  "E10": {
+    "name": "Alice",
+    "total_hours": 47.5,
+    "regular_pay": 600.0,
+    "overtime_pay": 168.75,
+    "total_pay": 768.75,
+    "missing_punches": 0
+  },
+  "E11": {
+    "name": "Bob",
+    "total_hours": 4.0,
+    "regular_pay": 60.0,
+    "overtime_pay": 0.0,
+    "total_pay": 60.0,
+    "missing_punches": 1
+  },
+  "E12": {
+    "name": "Charlie",
+    "total_hours": 4.25,
+    "regular_pay": 63.75,
+    "overtime_pay": 0.0,
+    "total_pay": 63.75,
+    "missing_punches": 0
+  }
+}
